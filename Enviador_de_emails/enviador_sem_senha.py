@@ -3,8 +3,10 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 
+
+
 email = "caio.estrella@gmail.com"
-senha = "coubainkurtgrol18"
+senha = " " ##INSERIR SENHA
 destinatario = "caio.figueiredo@fgv.br"
 assunto = "E-mail enviado pelo robo"
 mensagem = "Mensagem enviada com sucesso"
@@ -13,7 +15,7 @@ driver = webdriver.Chrome('C:\\Users\\caio.figueiredo\\Projetos\\robos\\chromedr
 
 print("Iniciando o robo...\n")
 print("Acessando o e-mail...")
-driver.get("https://www.gmail.com/")
+driver.get("https://www.gmail.com/")add
 
 ###LOGIN###
 print("Fazendo Login...")
